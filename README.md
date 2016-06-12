@@ -27,6 +27,9 @@ chmod +x bro/socat.sh
 ./bro/socat.sh
 
 ##client
+
 `change ip -> vuln server`
+
 **run exploit**
+
 python exploit_code/pwn.py
