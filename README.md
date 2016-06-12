@@ -1,17 +1,32 @@
-﻿# simple_BroIDS_Unicorn#install bro at:
+#BroIDS_Unicorn
+
+simple plugin to detect shellcode on Bro IDS with Unicorn
+
+**install bro:**
+
 https://www.bro.org
-#install unicorm-engine at:
+
+**install unicorm-engine:**
+
 https://github.com/unicorn-engine/unicorn
 
-###Vuln server:
-#run bro: 
+##Vuln server:
+
+**new terminal run bro:**
+
 bro -i eth0 bro/detector.bro
-#run unicorn: 
+
+**new terminal run unicorn:**
+
 python bro/checkshell.py
-#run vuln
+
+**run vuln service:**
+
 chmod +x bro/socat.sh
+
 ./bro/socat.sh
 
-###client
-#change ip -> vuln server
+##client
+`change ip -> vuln server`
+**run exploit**
 python exploit_code/pwn.py
