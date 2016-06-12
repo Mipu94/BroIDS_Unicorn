@@ -22,9 +22,9 @@ python bro/checkshell.py
 
 **run vuln service:**
 
-chmod +x bro/socat.sh
+cd vulnserver 
 
-./bro/socat.sh
+./socat.sh vuln
 
 ##client
 
@@ -33,3 +33,7 @@ chmod +x bro/socat.sh
 **run exploit**
 
 python exploit_code/pwn.py
+
+##Video demo
+
+https://youtu.be/0nd1XJ9I4pQ
