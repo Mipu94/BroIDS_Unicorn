@@ -2,9 +2,10 @@
 
 simple plugin to detect shellcode on Bro IDS with Unicorn
 
-**install bro:**
+**install bro and addon broccoli-python:**
 
 https://www.bro.org
+https://github.com/bro/broccoli-python
 
 **install unicorm-engine:**
 
